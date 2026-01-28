@@ -41,7 +41,7 @@ export function Hero({ onNavigate }: HeroProps) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className="w-full h-full"
-            style={{ opacity: videoOpacity, border: 'none' }}
+            style={{ border: 'none' }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-[#082F49]" />
         </motion.div>
